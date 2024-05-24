@@ -65,13 +65,13 @@ const CollectionPage = () => {
                 <div className={styles.row}>
                   <h1> {item.name} </h1>
                 </div>
-                <div className={styles.row}>
+                {/* <div className={styles.row}>
                   <h2>{item.description}</h2>
-                </div>
+                </div> */}
                 <div className={styles.row}>
-                  {/* <Link href={`${item.linkedIn}`}>
+                  <Link href={`${item.linkedIn}`}>
                     <h2> 🔗 LinkedIn </h2>
-                  </Link> */}
+                  </Link>
                 </div>
               </div>
             </div>
