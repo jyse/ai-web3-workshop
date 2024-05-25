@@ -1,9 +1,87 @@
 [
   {
     "name": "Jessy The",
-    "image": "ipfs://QmNxpWBarwhTarAMwtHUTcgmCXzNNsDnXH9d6bsYjwqF2F/0.png",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/0.png",
     "linkedIn": "www.linkedin.com/jessy-the",
     "imgName": "0.png",
     "tokenId": 0
+  },
+  {
+    "name": "Gerhard ",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/1.png",
+    "imgName": "1.png",
+    "tokenId": 1
+  },
+  {
+    "name": "Dino enjoying life",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/2.png",
+    "imgName": "2.png",
+    "tokenId": 2
+  },
+  {
+    "name": "Marcel",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/3.png",
+    "imgName": "3.png",
+    "tokenId": 3
+  },
+  {
+    "name": "TENACAT",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/4.png",
+    "imgName": "4.png",
+    "tokenId": 4
+  },
+  {
+    "name": "Cat sitting in red chair",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/5.png",
+    "imgName": "5.png",
+    "tokenId": 5
+  },
+  {
+    "name": "Rob",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/6.png",
+    "imgName": "6.png",
+    "tokenId": 6
+  },
+  {
+    "name": "UriB",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/7.png",
+    "imgName": "7.png",
+    "tokenId": 7
+  },
+  {
+    "name": "Mitchell ",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/8.png",
+    "imgName": "8.png",
+    "tokenId": 8
+  },
+  {
+    "name": "Luuk",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/9.png",
+    "imgName": "9.png",
+    "tokenId": 9
+  },
+  {
+    "name": "Gert-Jan ",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/10.png",
+    "imgName": "10.png",
+    "tokenId": 10
+  },
+  {
+    "name": "Pat",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/11.png",
+    "imgName": "11.png",
+    "tokenId": 11
+  },
+  {
+    "name": "Aramis",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/12.png",
+    "imgName": "12.png",
+    "tokenId": 12
+  },
+  {
+    "name": "hwh",
+    "image": "ipfs://QmcuEcB5mwzDmy3x5Z8eEh42XC2oX1nN9wn9mMte1mSPWw/13.png",
+    "imgName": "13.png",
+    "tokenId": 13
   }
 ]
