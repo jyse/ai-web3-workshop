@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract AiWeb3Collection is ERC721, ERC721Enumerable, ERC721URIStorage {
+contract AIWeb3Collection is ERC721, ERC721Enumerable, ERC721URIStorage {
     
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIdCounter;
@@ -14,12 +14,11 @@ contract AiWeb3Collection is ERC721, ERC721Enumerable, ERC721URIStorage {
     mapping(uint256 => bool) private _mintedTokens;
  
     constructor()
-        ERC721("AiWeb3Collection", "AW3")        
+        ERC721("AIWeb3Collection", "AW3")        
     {}
 
     function _baseURI() internal pure override returns (string memory) {
-        
-        return "ipfs://....[json-folder-hash].../";
+        return "ipfs://[....QmVM7K8tDYJff6P3QVxg4nshZ6AszsEQdLS3TvwPNc8b7D...]/";
     }
 
     function isTokenMinted(uint256 tokenId) public view returns (bool) {
