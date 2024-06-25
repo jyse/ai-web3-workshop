@@ -5,7 +5,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div className={styles.header}>
-      <h1>TeqNation</h1>
+      <h1>AI&Web3 Workshop</h1>
       <div className={styles.menu}>
         <div className={styles.menuItem}>
           <Link href="https://discord.gg/rKV6JBTT">
