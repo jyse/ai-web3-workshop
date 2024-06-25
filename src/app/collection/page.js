@@ -56,7 +56,7 @@ const CollectionPage = () => {
               <div className={styles.qrCodeContainer}>
                 {/* //button=> minten etc. in case they do it from their phone.  */}
                 <QRCode
-                  // value={`https://teqnation-ai-web3.vercel.app/mint?tokenId=${item.tokenId}`}
+                  value={`https://ai-web3-workshop-xi.vercel.app/mint?tokenId=${item.tokenId}`}
                   size={250}
                   level={"H"}
                   includeMargin={true}
