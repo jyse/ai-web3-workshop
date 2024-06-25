@@ -38,7 +38,7 @@ const MintPage = () => {
   }, []);
 
   const handleMint = async () => {
-    console.log("mint ing 🍬🍬🍬🍬🍬");
+    console.log("minting 🐲🔥🐲🔥🐲🔥🐲🔥🍬🍬🍬🍬🍬");
     if (!contract) {
       console.error("Contract not connected");
       return;
@@ -48,9 +48,10 @@ const MintPage = () => {
       setLoading(true);
 
       // Check if token is already minted
+      console.log("🐲🐲🐲 Stone 1");
       const isAlreadyMinted = await contract.isTokenMinted(tokenId);
 
-      console.log(isAlreadyMinted, "ALREAYD?🧸🧸🧸🧸🧸🧸");
+      console.log(isAlreadyMinted, "ALREADY?🧸🧸🧸🧸🧸🧸");
       if (isAlreadyMinted) {
         alert(`Token ID ${tokenId} has already been minted`);
         setIsAlreadyMinted(true);
@@ -59,7 +60,7 @@ const MintPage = () => {
       }
 
       const signerAddress = await contract.signer.getAddress();
-
+      console.log("🐲🐲🐲 Signer Address verkregen, Stone 2");
       const mintTx = await contract.safeMint(signerAddress, tokenId, {
         value: ethers.utils.parseEther("0.001")
       });
@@ -67,6 +68,7 @@ const MintPage = () => {
       console.log("🐼 MINT transaction: ", mintTx);
       const receipt = await mintTx.wait();
 
+      console.log(receipt, "the mint took place");
       setLoading(false);
       setMintSuccess(true);
       setTransactionHash(receipt.transactionHash);
