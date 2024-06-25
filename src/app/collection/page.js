@@ -69,11 +69,11 @@ const CollectionPage = () => {
                 {/* <div className={styles.row}>
                   <h2>{item.description}</h2>
                 </div> */}
-                <div className={styles.row}>
+                {/* <div className={styles.row}>
                   <Link href={`${item.linkedIn}`}>
                     <h2> 🔗 LinkedIn </h2>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </>
